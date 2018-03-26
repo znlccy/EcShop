@@ -3,6 +3,7 @@
 namespace app\admin\controller;
 
 use think\Controller;
+
 use think\Request;
 
 class Admin extends Controller
@@ -15,7 +16,7 @@ class Admin extends Controller
     public function index()
     {
         //
-        return "你好";
+        echo "你好";
     }
 
     /**
@@ -36,7 +37,7 @@ class Admin extends Controller
      */
     public function save(Request $request)
     {
-        //
+        //创建保存按钮
     }
 
     /**
@@ -47,7 +48,8 @@ class Admin extends Controller
      */
     public function read($id)
     {
-        //
+        //创建
+        echo "nihao";
     }
 
     /**

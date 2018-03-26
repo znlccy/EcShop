@@ -6,7 +6,7 @@
  * @Introduce: 用户管理
  */
 
-namespace app\app\controller;
+namespace app\api\controller;
 
 use think\Controller;
 
@@ -16,23 +16,22 @@ class User extends Controller {
      * 用户注册
      */
     public function userRegister() {
-
+        echo "User register success";
     }
 
     /*
      * 用户登录
      */
     public function userLogin() {
-
+        echo "User login success";
     }
 
     /*
      * 用户忘记密码
      */
     public function userForgetPass() {
-        echo "忘记密码";
+        echo "User forget password";
     }
 
 }
-
 ?>
