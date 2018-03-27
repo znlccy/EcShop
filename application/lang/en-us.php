@@ -9,7 +9,11 @@
 
 return [
     //Relative to shop
-
+    'shop_index'                                    => 'Home',
+    'attention_mall'                                => 'Concern Mall',
+    'concerned_official_wechat'                     => 'Concern Wechat',
+    'mobile_terminal'                               => 'Mobile',
+    ''
 ];
 
 ?>
