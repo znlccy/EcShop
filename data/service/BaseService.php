@@ -1,0 +1,10 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2018/4/2
+ * Time: 17:16
+ */
+class BaseService {
+
+}
