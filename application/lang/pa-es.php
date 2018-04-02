@@ -7,9 +7,10 @@
  */
 
 return [
-    'shop_index'                                =>  'Inicio',
-    'attention_mall'                            =>  'Seguir a nosotros',
-    'concerned_official_wechat'                 => 'wechat oficial',
-    ''
+    //Relative to shop
+    'shop_index'                            => 'Inicio',
+    'attention_mall'                        => 'Seguir a nosotros',
+    'concerned_official_wechat'             => 'wechat oficial',
+
 ];
 ?>
