@@ -13,5 +13,3 @@ use think\Db;
 class Auth {
 
 }
-
-?>

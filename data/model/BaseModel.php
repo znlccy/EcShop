@@ -12,6 +12,7 @@ use think\Model;
 use think\Db;
 use think\Validate;
 use think\Loader;
+use think\Cache;
 
 class BaseModel extends Model {
 
@@ -97,5 +98,11 @@ class BaseModel extends Model {
      */
     protected function htmlClear($data) {
         $rule = $this->rule;
+        $info = empty($rule) ? $this->Validate : $rule;
+        foreach ($data as $k=>$v) {
+            if (!empty($info)) {
+
+            }
+        }
     }
 }
